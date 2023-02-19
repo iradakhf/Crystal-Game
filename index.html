@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crystal Collector</title>
+</head>
+<body>
+    
+    <h1 id="crystalCollectorHeading">Crystal Collector</h1>
+     <div class=" table">
+        <h3>Instructions</h3>
+        <p>You will be given random number at the start of the game. There are four crystals below
+            By clicking you will add a specific amount of points to your total score.
+            You win the game by matching your total score to random number, you loose 
+            the game if your total score goes above the random number. The value of each 
+            crystal is hidden from you until you click on it. Each time when the game start
+         the game will change the value of each crystal
+        </p>
+     </div>
+     <div class="table">
+        <h3>Target Score</h3>
+        <p id="target" style="text-align: center;">101</p>
+     </div>
+     <div class="table">
+        <h3>Your Score</h3>
+        <p id="yourscore" style="text-align: center;">0</p>
+     </div>
+     <div class="table">
+        <h3>Crystal  Selection</h3>
+        <div class="images" style="display: flex; justify-content: space-between;">
+            <div class="img1">
+                <img src="download.jpg" alt="">
+            </div>
+            <div class="img2">
+                <img src="download2.jpg" alt="">
+
+            </div>
+            <div class="img3">
+                <img src="download (1).jpg" alt="">
+
+            </div>
+            <div class="img4">
+                <img src="download2.jpg" alt="">
+
+            </div>
+        </div>
+     </div>
+     <div class="table">
+        <h3>Win Count</h3>
+        <p id="win" style="text-align: center;">0</p>
+     </div>
+     <div class="table">
+        <h3>Loss Count</h3>
+        <p id="loss" style="text-align: center;">0</p>
+     </div>
+     <script src="app.js" defer></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

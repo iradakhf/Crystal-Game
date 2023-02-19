@@ -1,0 +1,18 @@
+#crystalCollectorHeading{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 4rem 0;
+    color: white;
+    font-size: 50px;
+}
+
+.table h3{
+    background-color: aqua;
+   text-align: center;
+   color: white;
+   margin-top: 4rem;
+}
+.table p{
+   border-bottom: 1px solid black;
+   padding-bottom: 20px;
+}
